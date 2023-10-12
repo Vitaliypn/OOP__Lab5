@@ -30,4 +30,11 @@ public class FlowerTest {
         flower.setColor(color);
         Assertions.assertEquals("#FF0000", flower.getColor());
     }
+
+    @Test
+    public void testBucket() {
+        FlowerColor color = FlowerColor.RED;
+        flower.setColor(color);
+        Assertions.assertEquals("#FF0000", flower.getColor());
+    }
 }
